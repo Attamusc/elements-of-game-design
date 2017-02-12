@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0585f76e-e9f2-4adc-a3b2-53a5262b6eae",
+            "Value": {
+                "id": "a07540f1-79c6-4194-9dd0-2dabda140f63",
+                "resourcePath": "objects\\oPresentationController\\oPresentationController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e98073a-430a-4c1d-b0ac-08c0e57550f5",
             "Value": {
                 "id": "9665250b-c1eb-4407-b460-3b7b794d7ef8",
@@ -52,6 +60,38 @@
                 "id": "8ef3f445-4f3e-43b9-9aad-f534192065e4",
                 "resourcePath": "views\\23253bcf-923f-4cee-a979-e672df2fd1f1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2c7463fa-5979-4a57-89b2-44e48b58356d",
+            "Value": {
+                "id": "539b73a0-d9a0-4c48-8e9f-5fb33fc89da8",
+                "resourcePath": "views\\2c7463fa-5979-4a57-89b2-44e48b58356d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "54f17b53-2020-4e2f-bd54-f4ab83464e09",
+            "Value": {
+                "id": "bb6b9a9a-b877-4d3f-a72e-36874d0cc121",
+                "resourcePath": "scripts\\show_slide_one\\show_slide_one.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5e2de0f8-c41c-4140-9104-12714c80430c",
+            "Value": {
+                "id": "208f62b7-a2a5-4391-bb6c-d5b0f2a822ec",
+                "resourcePath": "views\\5e2de0f8-c41c-4140-9104-12714c80430c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "63efd4b0-764f-4b7f-8226-6ebd2fd2b0ed",
+            "Value": {
+                "id": "ebe92210-ade0-4342-b909-b30049042478",
+                "resourcePath": "scripts\\show_slide_empty\\show_slide_empty.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -79,11 +119,43 @@
             }
         },
         {
+            "Key": "72703976-b079-4789-85b5-ab1f7919d1de",
+            "Value": {
+                "id": "4f8ce2b6-b617-4fa8-af25-794a77ccb311",
+                "resourcePath": "fonts\\fnt_slides_subheader\\fnt_slides_subheader.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "74bc74b6-2102-4ea2-82a9-2c452be0a05c",
             "Value": {
                 "id": "ecf46ebe-c078-4c63-9643-10a5a7369da3",
                 "resourcePath": "views\\74bc74b6-2102-4ea2-82a9-2c452be0a05c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8f6c624e-d69b-4b25-98aa-ea6314e1a0c7",
+            "Value": {
+                "id": "268e4b18-8ad1-4465-aec9-45db48c1e83e",
+                "resourcePath": "scripts\\auto_toggle_mouse\\auto_toggle_mouse.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "91065ef3-195b-43e6-9ac4-a70bddee9ff1",
+            "Value": {
+                "id": "26e5fa5d-f3cb-4800-9a35-247041734099",
+                "resourcePath": "scripts\\show_slide_zero\\show_slide_zero.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "939fb62b-ce72-4d37-a315-07c08689622e",
+            "Value": {
+                "id": "ba374eb5-a9a8-48b9-9ff5-0e830e3c0bc1",
+                "resourcePath": "rooms\\rm_powerpoint\\rm_powerpoint.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -151,10 +223,26 @@
             }
         },
         {
+            "Key": "cd0d26e1-264d-4723-a476-706c6b562247",
+            "Value": {
+                "id": "d3f446c5-8b50-4e5d-9d90-a1ab4df6916d",
+                "resourcePath": "sprites\\spr_slides\\spr_slides.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d1410302-8698-4c45-8837-26b4808dcf14",
             "Value": {
                 "id": "244ae8e7-cae7-4343-bcf9-21ca1006656a",
                 "resourcePath": "views\\d1410302-8698-4c45-8837-26b4808dcf14.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d1444b0c-19c3-4ec2-ad67-1bfb07ba4123",
+            "Value": {
+                "id": "b2af66ee-ecd9-4b9f-b489-eac61b0f081c",
+                "resourcePath": "views\\d1444b0c-19c3-4ec2-ad67-1bfb07ba4123.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -167,10 +255,34 @@
             }
         },
         {
+            "Key": "e36a62e5-5844-4024-9c75-1862408b340a",
+            "Value": {
+                "id": "6ff22604-bb0e-4400-a4ed-906d4f770257",
+                "resourcePath": "sprites\\bg_slide_white\\bg_slide_white.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e3b36ab2-363f-4e48-9e69-66bdfaaf25b8",
+            "Value": {
+                "id": "bd2b5709-6787-4ffe-baf2-d6ead94cb502",
+                "resourcePath": "fonts\\fnt_slides_header\\fnt_slides_header.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "e408765f-3c90-4c26-bee1-7524ab83b9bc",
             "Value": {
                 "id": "04dbc737-7ff1-41ca-937a-1477824f4df2",
                 "resourcePath": "views\\e408765f-3c90-4c26-bee1-7524ab83b9bc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ebe1cf53-3f91-4c9c-86ea-01106a7e42ad",
+            "Value": {
+                "id": "82c729b6-d969-4e52-a084-b999fa010241",
+                "resourcePath": "views\\ebe1cf53-3f91-4c9c-86ea-01106a7e42ad.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -189,10 +301,21 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "fb842f30-5861-4b02-b732-3732b2019fd1",
+            "Value": {
+                "id": "c9905a2f-85b1-4bdb-9d18-9b86b00af511",
+                "resourcePath": "objects\\oPowerPointController\\oPowerPointController.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
-        
+        "8f6c624e-d69b-4b25-98aa-ea6314e1a0c7",
+        "91065ef3-195b-43e6-9ac4-a70bddee9ff1",
+        "63efd4b0-764f-4b7f-8226-6ebd2fd2b0ed",
+        "54f17b53-2020-4e2f-bd54-f4ab83464e09"
     ],
     "tutorial": ""
 }
