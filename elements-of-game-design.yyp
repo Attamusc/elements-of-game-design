@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "5e2de0f8-c41c-4140-9104-12714c80430c",
-            "Value": {
-                "id": "208f62b7-a2a5-4391-bb6c-d5b0f2a822ec",
-                "resourcePath": "views\\5e2de0f8-c41c-4140-9104-12714c80430c.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "63efd4b0-764f-4b7f-8226-6ebd2fd2b0ed",
             "Value": {
                 "id": "ebe92210-ade0-4342-b909-b30049042478",
@@ -131,6 +123,14 @@
             "Value": {
                 "id": "ecf46ebe-c078-4c63-9643-10a5a7369da3",
                 "resourcePath": "views\\74bc74b6-2102-4ea2-82a9-2c452be0a05c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8811b8b6-6e42-46d4-80d6-39671257cd1f",
+            "Value": {
+                "id": "c0cca869-ee2a-4d59-8679-ffc2083f0ebf",
+                "resourcePath": "views\\8811b8b6-6e42-46d4-80d6-39671257cd1f.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -188,6 +188,22 @@
                 "id": "f26b94e3-7f6b-4499-9af5-75c1a1c53dfc",
                 "resourcePath": "views\\aeb617f3-798d-41a9-9cc4-b21dc7df27c2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b7d733aa-24d0-44c7-b623-7a0b46b581f3",
+            "Value": {
+                "id": "b0e56a25-1ab7-4878-a9e3-8c183783ce71",
+                "resourcePath": "sprites\\spr_pp_error\\spr_pp_error.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bfa0b5b1-6fd7-4905-8567-cf598a727555",
+            "Value": {
+                "id": "eae62265-5200-4815-85c9-ea0aa1fb7bf0",
+                "resourcePath": "sounds\\snd_windows_bonk\\snd_windows_bonk.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -279,6 +295,14 @@
             }
         },
         {
+            "Key": "ea9052cb-7338-4012-a454-31fb626c44c5",
+            "Value": {
+                "id": "a5c049b4-d959-4b64-a19d-915ab69b321b",
+                "resourcePath": "views\\ea9052cb-7338-4012-a454-31fb626c44c5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ebe1cf53-3f91-4c9c-86ea-01106a7e42ad",
             "Value": {
                 "id": "82c729b6-d969-4e52-a084-b999fa010241",
@@ -307,6 +331,14 @@
             "Value": {
                 "id": "c9905a2f-85b1-4bdb-9d18-9b86b00af511",
                 "resourcePath": "objects\\oPowerPointController\\oPowerPointController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ff8f7678-8fce-486b-a041-b2f4b61e3ad0",
+            "Value": {
+                "id": "7af1727b-65f7-4b41-b2ac-1022ce3734f3",
+                "resourcePath": "objects\\oPowerPointError\\oPowerPointError.yy",
                 "resourceType": "GMObject"
             }
         }
