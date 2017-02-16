@@ -91,8 +91,8 @@
         "id": "9f403196-f443-4511-a5cc-6a6e2fc5e7d4",
         "modelName": "GMRoomSettings",
         "mvc": "1.0",
-        "Height": 768,
-        "Width": 1024,
+        "Height": 360,
+        "Width": 640,
         "inheritRoomSettings": false,
         "persistent": false
     },

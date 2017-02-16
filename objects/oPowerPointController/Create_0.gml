@@ -2,3 +2,5 @@
 
 current_slide = 0;
 max_slide = sprite_get_number(sprite_index) - 1;
+
+first_error_shown = false;

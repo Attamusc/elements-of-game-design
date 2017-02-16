@@ -5,3 +5,5 @@ mouse_cooldown = 0;
 
 //room_set_width(rm_powerpoint, display_get_width());
 //room_set_height(rm_powerpoint, display_get_height());
+
+set_globals();
