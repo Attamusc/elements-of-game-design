@@ -1,5 +1,5 @@
 {
-    "id": "bfa0b5b1-6fd7-4905-8567-cf598a727555",
+    "id": "6b82431b-d3f0-4de4-aaa2-c6105c2f2ed5",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_windows_bonk",

@@ -3,6 +3,8 @@ mouse_xprevious = window_mouse_get_x();
 mouse_yprevious = window_mouse_get_y();
 mouse_cooldown = 0;
 
+display_set_gui_size(640, 360);
+
 //room_set_width(rm_powerpoint, display_get_width());
 //room_set_height(rm_powerpoint, display_get_height());
 
