@@ -9,15 +9,42 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        
+        "97e04e2b-7480-48a3-aff7-3139b0a8226a",
+        "bc7bc1a3-622a-4f56-ad50-07460e266f39"
     ],
     "layers": [
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "id": "2239711a-4bcc-4275-9271-99a2a87df215",
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "depth": 0,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": false,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+                
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "name": "Waypoints",
+            "userdefined_depth": false,
+            "visible": false,
+            "instances": [
+                
+            ]
+        },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "id": "305d9a2f-d1a2-4080-8520-0ba1f5084881",
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
-            "depth": 0,
+            "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -35,7 +62,54 @@
             "userdefined_depth": false,
             "visible": true,
             "instances": [
-                
+                {
+                    "id": "97e04e2b-7480-48a3-aff7-3139b0a8226a",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_1E80DA18",
+                    "x": 33,
+                    "y": 35,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_1E80DA18",
+                    "objId": "0585f76e-e9f2-4adc-a3b2-53a5262b6eae",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "bc7bc1a3-622a-4f56-ad50-07460e266f39",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_1888B289",
+                    "x": 18,
+                    "y": 63,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_1888B289",
+                    "objId": "0bd3a6df-c1b9-4a0e-ba4d-def2974f5160",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                }
             ]
         },
         {
@@ -43,7 +117,7 @@
             "id": "50a356a7-a9d8-45db-bfec-cf3f4dd189c1",
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -63,11 +137,11 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4278190080
+                "Value": 4294967295
             },
             "hspeed": 0,
             "htiled": false,
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "spriteId": "1640889f-edee-4eaa-a633-1be4f61ff8c8",
             "stretch": false,
             "userdefined_animFPS": false,
             "vspeed": 0,

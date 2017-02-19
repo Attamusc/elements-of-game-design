@@ -1,7 +1,9 @@
 /// @description 
 
 var dialog = instance_create_layer(0, 0, "Instances", obj_dialogue_box);
+
 dialog.portrait = "dowser";
+
 dialog.message[0] = "Yoooooooo!";
 dialog.message[1] = "This presentation is sooooooooo boring!";
 dialog.message[2] = "Nobody wants to hear this garbage! And what's with that crazy font!?!";
