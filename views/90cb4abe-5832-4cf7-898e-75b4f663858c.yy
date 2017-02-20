@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "90cb4abe-5832-4cf7-898e-75b4f663858c",
     "children": [
-        "b2fba39c-7b9b-419e-8b6d-4108923d3296"
+        "b2fba39c-7b9b-419e-8b6d-4108923d3296",
+        "3ee2da77-0471-4c3e-9645-70566666491b"
     ],
     "filterType": "GMSprite",
     "folderName": "Platformer Player",
