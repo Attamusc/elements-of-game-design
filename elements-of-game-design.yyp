@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "aa610e56-8cc1-4a84-b35b-7fb3d928c326",
+            "Value": {
+                "id": "a546b4ed-81b2-4dfa-84a6-10702331a1a0",
+                "resourcePath": "sprites\\spr_platformer_player_jump\\spr_platformer_player_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aa7f1afd-d93f-4228-ba1b-24a022d26ed9",
             "Value": {
                 "id": "d08e4cc6-0424-4854-96b7-3c9eb611bb9d",

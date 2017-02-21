@@ -1,12 +1,20 @@
 /// @description Move the player while checking for collisions with solid objects
 
-if (vx != 0) {
-	sprite_index = spr_platformer_player_walk;
-	image_xscale = sign(vx);
+if (grounded) {
+	if (vx != 0) {
+		sprite_index = spr_platformer_player_walk;
+	}
+	else {
+		sprite_index = spr_platformer_player_idle;
+	}
 }
-else {
-	sprite_index = spr_platformer_player_idle;
+
+if (vy != 0) {
+	sprite_index = spr_platformer_player_jump;
+	image_index = vy < 0 ? 0 : 1;
 }
+
+image_xscale = dir;
 
 // Vertical
 repeat(abs(vy)) {
