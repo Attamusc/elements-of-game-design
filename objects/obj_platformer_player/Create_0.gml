@@ -10,8 +10,8 @@ m = 1.0;
 
 groundAccel = 1.0 * m;
 groundFric = 1.9 * m;
-airAccel = 0.75 * m;
-airFric = 0.1 * m;
+airAccel = 1.5 * m;
+airFric = 0.2 * m;
 vxMax = 7.5 * m;
 vyMax = 10.0 * m;
 jumpHeight = 12.0 * m;

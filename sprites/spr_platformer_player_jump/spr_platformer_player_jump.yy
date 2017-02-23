@@ -8,7 +8,7 @@
     "VTile": false,
     "bbox_bottom": 44,
     "bbox_left": 0,
-    "bbox_right": 22,
+    "bbox_right": 33,
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
@@ -82,7 +82,7 @@
     "swatchColours": null,
     "textureGroup": 0,
     "type": 0,
-    "width": 23,
-    "xorig": 11,
+    "width": 34,
+    "xorig": 17,
     "yorig": 44
 }
