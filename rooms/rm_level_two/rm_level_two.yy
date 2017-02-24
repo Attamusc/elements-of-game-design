@@ -9,7 +9,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        
+        "67318418-029d-4671-aa36-8280e1b48ea8"
     ],
     "layers": [
         {
@@ -35,7 +35,30 @@
             "userdefined_depth": false,
             "visible": true,
             "instances": [
-                
+                {
+                    "id": "67318418-029d-4671-aa36-8280e1b48ea8",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_15EC0541",
+                    "x": 160,
+                    "y": 160,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_15EC0541",
+                    "objId": "57ec57c3-e346-41a2-8825-507b11490911",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                }
             ]
         },
         {
@@ -102,7 +125,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": false,
         "clearViewBackground": false,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false
     },
     "views": [
@@ -110,17 +133,17 @@
             "id": "07c2d3e6-b8ea-4055-927a-9825c351b588",
             "modelName": "GMRView",
             "mvc": "1.0",
-            "hborder": 32,
-            "hport": 768,
+            "hborder": 360,
+            "hport": 360,
             "hspeed": -1,
-            "hview": 768,
+            "hview": 360,
             "inherit": false,
-            "objId": "00000000-0000-0000-0000-000000000000",
-            "vborder": 32,
-            "visible": false,
+            "objId": "57ec57c3-e346-41a2-8825-507b11490911",
+            "vborder": 180,
+            "visible": true,
             "vspeed": -1,
-            "wport": 1024,
-            "wview": 1024,
+            "wport": 640,
+            "wview": 640,
             "xport": 0,
             "xview": 0,
             "yport": 0,
