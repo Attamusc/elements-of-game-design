@@ -1,5 +1,9 @@
 /// @description Move the player while checking for collisions with solid objects
 
+if (!alive) {
+	return;
+}
+
 if (grounded) {
 	if (vx != 0) {
 		sprite_index = spr_platformer_player_walk;

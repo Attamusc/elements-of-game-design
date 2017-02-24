@@ -4,6 +4,7 @@
 event_inherited();
 
 dir = DIRECTION_RIGHT;
+alive = true;
 
 // Movement multipler for speed changes
 m = 1.0;
@@ -34,3 +35,6 @@ canDash = true;
 isDashing = false;
 
 sqrt2 = sqrt(2);
+
+starting_x = x;
+starting_y = y;
