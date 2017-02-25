@@ -12,10 +12,14 @@ if (grounded) {
 		sprite_index = spr_platformer_player_idle;
 	}
 }
-
-if (vy != 0) {
-	sprite_index = spr_platformer_player_jump;
-	image_index = vy < 0 ? 0 : 1;
+else {
+	if ((collisionLeft || collisionRight)) {
+		sprite_index = spr_platformer_player_wall_slide;
+	}
+	else {
+		sprite_index = spr_platformer_player_jump;
+		image_index = vy < 0 ? 0 : 1;
+	}
 }
 
 image_xscale = dir;

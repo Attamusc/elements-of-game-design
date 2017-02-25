@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1bea3995-7d06-4d85-93fd-4b1bf5b95979",
+            "Value": {
+                "id": "aa834a49-3b8d-4be8-a116-9de6e2b68428",
+                "resourcePath": "tilesets\\ts_level_one_tiles\\ts_level_one_tiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "1ec0b54c-99d3-4721-87ee-3f08e2dbb1c6",
             "Value": {
                 "id": "7ee6b8fe-5f6d-4ed5-9e54-8d6245e086d0",
@@ -351,6 +359,14 @@
             }
         },
         {
+            "Key": "5040683e-b62b-41aa-b023-53c56cbe0dab",
+            "Value": {
+                "id": "e5cae6c6-b875-403b-8542-7c2cfbdeaeba",
+                "resourcePath": "views\\5040683e-b62b-41aa-b023-53c56cbe0dab.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "54f17b53-2020-4e2f-bd54-f4ab83464e09",
             "Value": {
                 "id": "bb6b9a9a-b877-4d3f-a72e-36874d0cc121",
@@ -524,6 +540,14 @@
                 "id": "d60c5b5b-8faa-43f6-8786-f62463c15f3a",
                 "resourcePath": "views\\76f0df04-086a-4826-9bce-107beccc123d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "77668a89-b941-4d56-ad76-54761a0d673a",
+            "Value": {
+                "id": "757c976f-0b0d-480c-ae14-2e67b2e6b335",
+                "resourcePath": "sprites\\spr_metal_tileset\\spr_metal_tileset.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -975,6 +999,14 @@
             }
         },
         {
+            "Key": "dee460e6-2eed-4b5c-803e-be88b332e47c",
+            "Value": {
+                "id": "c581ae23-343e-4058-a891-a5762fa8c454",
+                "resourcePath": "sprites\\bg_metal_background\\bg_metal_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e127e245-25ee-4c54-a62e-e1c9375facf7",
             "Value": {
                 "id": "2b64b0ed-7d08-45c3-839e-b2ad04911b9c",
@@ -1091,6 +1123,14 @@
             "Value": {
                 "id": "3a512285-3d1b-4fb2-bf41-07c012eb434f",
                 "resourcePath": "sprites\\spr_level_zero_path_a\\spr_level_zero_path_a.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fb54ffb8-6add-470a-a644-35b21b519ee8",
+            "Value": {
+                "id": "803190e2-35dd-4a2b-b995-c0476ef954b2",
+                "resourcePath": "sprites\\spr_platformer_player_wall_slide\\spr_platformer_player_wall_slide.yy",
                 "resourceType": "GMSprite"
             }
         },
