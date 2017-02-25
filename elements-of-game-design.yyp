@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1b512259-cb77-4963-8c73-41bff84582bb",
+            "Value": {
+                "id": "b78e597c-4833-474d-92ee-992bcb5ae3a4",
+                "resourcePath": "objects\\obj_solid_parent\\obj_solid_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ec0b54c-99d3-4721-87ee-3f08e2dbb1c6",
             "Value": {
                 "id": "7ee6b8fe-5f6d-4ed5-9e54-8d6245e086d0",
@@ -351,6 +359,14 @@
             }
         },
         {
+            "Key": "57cc5ed1-9a8a-4aa8-9142-f6aff38559c9",
+            "Value": {
+                "id": "00921209-471e-4057-ad3f-bd5f3882e00d",
+                "resourcePath": "views\\57cc5ed1-9a8a-4aa8-9142-f6aff38559c9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "57ec57c3-e346-41a2-8825-507b11490911",
             "Value": {
                 "id": "c521d332-cca3-424f-a76a-191ab16cfb4e",
@@ -487,6 +503,14 @@
             }
         },
         {
+            "Key": "73f85fb8-cd5e-4c32-87bd-7f0580498547",
+            "Value": {
+                "id": "a4814c8a-0da7-415d-b53f-1b5e2aac27d4",
+                "resourcePath": "tilesets\\ts_level_two_woods_tiles\\ts_level_two_woods_tiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "74bc74b6-2102-4ea2-82a9-2c452be0a05c",
             "Value": {
                 "id": "ecf46ebe-c078-4c63-9643-10a5a7369da3",
@@ -516,6 +540,14 @@
                 "id": "17c28f81-d6e0-439a-9223-7ce254276957",
                 "resourcePath": "rooms\\rm_level_one\\rm_level_one.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "838d27d1-048f-4d0b-a057-874b42ae7180",
+            "Value": {
+                "id": "dc4c85a8-00fa-43eb-9279-63dcca181fe4",
+                "resourcePath": "sprites\\spr_solid\\spr_solid.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -687,6 +719,14 @@
             }
         },
         {
+            "Key": "a9250499-9cc0-413f-b290-84dcdd635cd2",
+            "Value": {
+                "id": "0de06560-495c-49ae-bc2c-0e3804b7ad74",
+                "resourcePath": "views\\a9250499-9cc0-413f-b290-84dcdd635cd2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a9a538b9-b39f-4660-be56-de7f9ddc1598",
             "Value": {
                 "id": "02e407ed-12e1-42c8-8b77-6aaf159b457d",
@@ -735,6 +775,14 @@
             }
         },
         {
+            "Key": "b29b5b93-f0bd-41eb-84a8-fea01b108ad6",
+            "Value": {
+                "id": "4061dff4-a92b-49b4-9ecc-47cf8e2bec01",
+                "resourcePath": "views\\b29b5b93-f0bd-41eb-84a8-fea01b108ad6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b2fba39c-7b9b-419e-8b6d-4108923d3296",
             "Value": {
                 "id": "84a89cdf-a43d-4b7b-8ee9-5bd109613e93",
@@ -743,11 +791,27 @@
             }
         },
         {
+            "Key": "b3ba8036-6075-4302-92d4-e54900c46a98",
+            "Value": {
+                "id": "68f9a9b8-4a86-4e9c-a608-364f762e001f",
+                "resourcePath": "views\\b3ba8036-6075-4302-92d4-e54900c46a98.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b7d733aa-24d0-44c7-b623-7a0b46b581f3",
             "Value": {
                 "id": "b0e56a25-1ab7-4878-a9e3-8c183783ce71",
                 "resourcePath": "sprites\\spr_pp_error\\spr_pp_error.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b893166c-ac2d-43f8-8119-a35405dde8e2",
+            "Value": {
+                "id": "2552791a-38e6-4bfa-ba02-4f98177fb827",
+                "resourcePath": "views\\b893166c-ac2d-43f8-8119-a35405dde8e2.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -908,6 +972,14 @@
                 "id": "ccbb1db9-ca24-4cd2-b53a-171cda8fb9d7",
                 "resourcePath": "objects\\oLevelZeroController\\oLevelZeroController.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e127e245-25ee-4c54-a62e-e1c9375facf7",
+            "Value": {
+                "id": "2b64b0ed-7d08-45c3-839e-b2ad04911b9c",
+                "resourcePath": "sprites\\spr_woods_tileset\\spr_woods_tileset.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

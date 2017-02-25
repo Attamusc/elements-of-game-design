@@ -50,5 +50,10 @@ if (vx == 0 && vy == 0) {
 	}
 }
 
-x += vx;
-y += vy;
+if (!place_meeting(x + vx, y, obj_solid_parent)) {
+	x += vx;
+}
+
+if (!place_meeting(x, y + vy, obj_solid_parent)) {
+	y += vy;
+}
