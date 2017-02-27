@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "6f5f9769-99e9-40d8-8002-42a9aa129788",
+            "Value": {
+                "id": "75d4d183-6290-4ec2-ab76-a69f36b21446",
+                "resourcePath": "sprites\\spr_boring_explainer\\spr_boring_explainer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "72703976-b079-4789-85b5-ab1f7919d1de",
             "Value": {
                 "id": "4f8ce2b6-b617-4fa8-af25-794a77ccb311",
