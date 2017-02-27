@@ -4,7 +4,7 @@ if (!alive) {
 	return;
 }
 
-if (grounded) {
+if (vy ==0 && grounded) {
 	if (vx != 0) {
 		sprite_index = spr_platformer_player_walk;
 	}
