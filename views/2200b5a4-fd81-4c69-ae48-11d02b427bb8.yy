@@ -12,7 +12,9 @@
         "3d419a81-673f-49d8-921d-86f21ad3e54a",
         "68228fd8-246a-4ebe-8ded-ac075cbd68cd",
         "4457e474-3c19-4ec0-bcc1-f1840e1d7894",
-        "6f5f9769-99e9-40d8-8002-42a9aa129788"
+        "6f5f9769-99e9-40d8-8002-42a9aa129788",
+        "d19714af-4b29-45f7-b1db-2957a9081913",
+        "5a57f86b-e920-414e-89d6-d16a05113033"
     ],
     "filterType": "GMSprite",
     "folderName": "Level Zero",

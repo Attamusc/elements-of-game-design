@@ -11,7 +11,9 @@
         "420a37d0-6bd9-4eb2-816f-1d5eb1128fc6",
         "f5fd63a5-d503-437e-bc75-7cc08f0b34b0",
         "e939fde3-fe48-453c-913a-b5e5bf6998c2",
-        "b96ef20a-e6b4-472c-a552-6ead2abd6202"
+        "b96ef20a-e6b4-472c-a552-6ead2abd6202",
+        "d8dcf1b3-a596-403c-90c0-7f19aa861a23",
+        "e5caf301-9286-46ce-a601-61f6672757f0"
     ],
     "filterType": "GMObject",
     "folderName": "Level Zero",
