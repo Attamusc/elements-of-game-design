@@ -5,13 +5,33 @@
     "name": "obj_key_door",
     "eventList": [
         {
-            "id": "55db4919-ca5e-41ad-a2ef-084e569ac976",
+            "id": "627e6b79-c856-45f2-8325-b16f8be70e30",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "9c7d13ba-93ce-4fa4-ae50-f8e96d9dcf93",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "327206e1-5b4e-4109-9116-21e17b60fa45"
+        },
+        {
+            "id": "4fd44cef-dee6-463c-9902-a97657c6519f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 8,
+            "eventtype": 0,
+            "m_owner": "327206e1-5b4e-4109-9116-21e17b60fa45"
+        },
+        {
+            "id": "f4a9a3fd-b7e1-4f63-9446-120ef87e5cfd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "327206e1-5b4e-4109-9116-21e17b60fa45"
         }
     ],

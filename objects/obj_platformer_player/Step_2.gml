@@ -4,7 +4,9 @@ if (!alive) {
 	return;
 }
 
-if (vy == 0 && grounded) {
+image_xscale = dir;
+
+if (grounded) {
 	if (vx != 0) {
 		sprite_index = spr_platformer_player_walk;
 	}
@@ -13,16 +15,15 @@ if (vy == 0 && grounded) {
 	}
 }
 else {
-	if (vx == 0 && (collisionLeft || collisionRight)) {
+	if (collisionLeft || collisionRight) {
 		sprite_index = spr_platformer_player_wall_slide;
+		image_xscale = collisionRight ? 1 : -1;
 	}
 	else {
 		sprite_index = spr_platformer_player_jump;
 		image_index = vy < 0 ? 0 : 1;
 	}
 }
-
-image_xscale = dir;
 
 var tileCollision, solidCollision;
 
@@ -44,7 +45,7 @@ repeat(abs(vy)) {
 repeat(abs(vx)) {
 	tileCollision = place_meeting_collision_tile(bbox_left + sign(vx), bbox_top, bbox_right + sign(vx), bbox_bottom);
 	solidCollision = place_meeting(x + sign(x), y, obj_solid_parent);
-	
+
 	if (!tileCollision && !solidCollision) {
         x += sign(vx);
 	} 
