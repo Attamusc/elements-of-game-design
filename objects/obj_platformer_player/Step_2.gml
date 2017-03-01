@@ -4,7 +4,7 @@ if (!alive) {
 	return;
 }
 
-if (vy ==0 && grounded) {
+if (vy == 0 && grounded) {
 	if (vx != 0) {
 		sprite_index = spr_platformer_player_walk;
 	}
@@ -13,7 +13,7 @@ if (vy ==0 && grounded) {
 	}
 }
 else {
-	if ((collisionLeft || collisionRight)) {
+	if (vx == 0 && (collisionLeft || collisionRight)) {
 		sprite_index = spr_platformer_player_wall_slide;
 	}
 	else {
@@ -24,9 +24,14 @@ else {
 
 image_xscale = dir;
 
+var tileCollision, solidCollision;
+
 // Vertical
 repeat(abs(vy)) {
-	if (!place_meeting_collision_tile(bbox_left, bbox_top + sign(vy), bbox_right, bbox_bottom + sign(vy))) {
+	tileCollision = place_meeting_collision_tile(bbox_left, bbox_top + sign(vy), bbox_right, bbox_bottom + sign(vy));
+	solidCollision = place_meeting(x, y + sign(vy), obj_solid_parent);
+	
+	if (!tileCollision && !solidCollision) {
         y += sign(vy); 
 	}
     else {
@@ -37,7 +42,10 @@ repeat(abs(vy)) {
 
 // Horizontal
 repeat(abs(vx)) {
-	if (!place_meeting_collision_tile(bbox_left + sign(vx), bbox_top, bbox_right + sign(vx), bbox_bottom)) {
+	tileCollision = place_meeting_collision_tile(bbox_left + sign(vx), bbox_top, bbox_right + sign(vx), bbox_bottom);
+	solidCollision = place_meeting(x + sign(x), y, obj_solid_parent);
+	
+	if (!tileCollision && !solidCollision) {
         x += sign(vx);
 	} 
     else {

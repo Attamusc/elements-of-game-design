@@ -7,10 +7,10 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 34,
-    "bbox_left": 0,
-    "bbox_right": 33,
-    "bbox_top": 0,
-    "bboxmode": 0,
+    "bbox_left": 3,
+    "bbox_right": 32,
+    "bbox_top": 2,
+    "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [
@@ -251,7 +251,7 @@
             "visible": true
         }
     ],
-    "origin": 7,
+    "origin": 8,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
     "sepmasks": false,
@@ -260,6 +260,6 @@
     "textureGroup": 0,
     "type": 0,
     "width": 34,
-    "xorig": 17,
+    "xorig": 33,
     "yorig": 34
 }
