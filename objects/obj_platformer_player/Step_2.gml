@@ -6,6 +6,11 @@ if (!alive) {
 
 image_xscale = dir;
 
+if (attacking) {
+	sprite_index = spr_platformer_player_shoot;
+	return;	
+}
+
 if (grounded) {
 	if (vx != 0) {
 		sprite_index = spr_platformer_player_walk;

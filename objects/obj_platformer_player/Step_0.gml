@@ -77,6 +77,10 @@ if (jumpPressed) {
 	if (grounded) {
 		// Jump
 		vy = -jumpHeight;
+		
+		if (global.dust_enabled) {
+			instance_create_layer(x, y, "Instances", obj_jump_dust);
+		}
 		// canDoubleJump = true;
 	}
 	else if (collisionLeft) {
@@ -135,4 +139,24 @@ if (isDashing) {
 // Figure out direction facing based on horizontal velocity
 if (vx != 0) {
 	dir = sign(vx);
+}
+
+// Attack!!
+if (attackPressed) {
+	if (global.awesome_attack_enabled) {
+		attacking = true;
+		alarm[3] = attackPauseTime;
+		
+		var projectile = instance_create_layer(x + dir * 15, y - 20, "Instances", obj_awesome_blast);
+		projectile.dir = dir;
+		projectile.image_xscale = dir;
+	}
+	else if (global.lame_attack_enabled) {
+		attacking = true;
+		alarm[3] = attackPauseTime;
+		
+		var projectile = instance_create_layer(x + dir * 15, y - 20, "Instances", obj_lame_blast);
+		projectile.dir = dir;
+		projectile.image_xscale = dir;
+	}
 }

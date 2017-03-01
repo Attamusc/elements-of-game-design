@@ -34,6 +34,10 @@ dashTime = 5.0 * m;
 canDash = true;
 isDashing = false;
 
+// Attack
+attacking = false;
+attackPauseTime = 5;
+
 sqrt2 = sqrt(2);
 
 starting_x = x;
