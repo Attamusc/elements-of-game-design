@@ -147,16 +147,20 @@ if (attackPressed) {
 		attacking = true;
 		alarm[3] = attackPauseTime;
 		
-		var projectile = instance_create_layer(x + dir * 15, y - 20, "Instances", obj_awesome_blast);
-		projectile.dir = dir;
-		projectile.image_xscale = dir;
+		if (instance_number(obj_awesome_blast) < 3) {
+			var projectile = instance_create_layer(x + dir * 15, y - 20, "Instances", obj_awesome_blast);
+			projectile.dir = dir;
+			projectile.image_xscale = dir;
+		}
 	}
 	else if (global.lame_attack_enabled) {
 		attacking = true;
 		alarm[3] = attackPauseTime;
 		
-		var projectile = instance_create_layer(x + dir * 15, y - 20, "Instances", obj_lame_blast);
-		projectile.dir = dir;
-		projectile.image_xscale = dir;
+		if (instance_number(obj_lame_blast) < 3) {
+			var projectile = instance_create_layer(x + dir * 15, y - 20, "Instances", obj_lame_blast);
+			projectile.dir = dir;
+			projectile.image_xscale = dir;
+		}
 	}
 }

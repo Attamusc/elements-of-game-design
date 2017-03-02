@@ -2,6 +2,24 @@
 
 var threshold = 0.5;
 
+left = false;
+right = false;
+up = false;
+down = false;
+
+jumpPressed = false;
+jumpReleased = false;
+
+attackPressed = false;
+attackReleased = false;
+
+dashPressed = false;
+dashReleased = false;
+
+if (global.scene_playing) {
+	return;
+}
+
 if (gamepad_is_connected(0)) {
 	left = gamepad_axis_value(0, gp_axislh) < -threshold;
 	right = gamepad_axis_value(0, gp_axislh) > threshold;

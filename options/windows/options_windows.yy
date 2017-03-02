@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "name": "Windows",
     "option_windows_allow_fullscreen_switching": true,
-    "option_windows_borderless": false,
+    "option_windows_borderless": true,
     "option_windows_company_info": "SpacePirateRadio",
     "option_windows_copyright_info": "(c) 2017 Sean Dunn",
     "option_windows_description_info": "A Presentation on Elements of Game Design @ Behance Lunch and Learn",
@@ -24,7 +24,7 @@
     "option_windows_scale": 1,
     "option_windows_sleep_margin": 1,
     "option_windows_splash_screen": "${base_options_dir}\\windows\\splash\\splash.png",
-    "option_windows_start_fullscreen": false,
+    "option_windows_start_fullscreen": true,
     "option_windows_texture_page": "2048x2048",
     "option_windows_use_splash": false,
     "option_windows_version": {

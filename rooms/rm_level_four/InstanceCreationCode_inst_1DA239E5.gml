@@ -1,0 +1,1 @@
+dir = DIRECTION_LEFT;

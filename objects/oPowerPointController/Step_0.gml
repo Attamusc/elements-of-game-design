@@ -14,13 +14,13 @@ if (keyboard_check_pressed(vk_right)) {
 		if (first_error_shown) {
 			xpos = irandom_range(10, room_width - 42);
 			ypos = irandom_range(10, room_height - 42);
-			instance_create_layer(xpos, ypos, "Instances", oPowerPointError);
+			instance_create_layer(xpos, ypos, "Errors", oPowerPointError);
 		}
 		else {
 			xpos = room_width / 2;
 			ypos = 50;
 			
-			var error_obj = instance_create_layer(xpos, ypos, "Instances", oPowerPointError);
+			var error_obj = instance_create_layer(xpos, ypos, "Errors", oPowerPointError);
 			error_obj.image_xscale = 1;
 			error_obj.image_yscale = 1;
 			error_obj.image_angle = 0;
