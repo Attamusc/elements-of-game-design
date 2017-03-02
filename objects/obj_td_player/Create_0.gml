@@ -4,3 +4,5 @@
 vx = 0;
 vy = 0;
 facing = "down";
+
+hand_collider = noone;

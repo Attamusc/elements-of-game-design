@@ -50,10 +50,42 @@ if (vx == 0 && vy == 0) {
 	}
 }
 
-if (!place_meeting(x + vx, y, obj_solid_parent)) {
-	x += vx;
+repeat(abs(vx)) {
+	if (!place_meeting(x + sign(vx), y, obj_solid_parent)) {
+		x += sign(vx);
+	}
+	else {
+		vx = 0;
+		break;
+	}
 }
 
-if (!place_meeting(x, y + vy, obj_solid_parent)) {
-	y += vy;
+repeat(abs(vy)) {
+	if (!place_meeting(x, y + sign(vy), obj_solid_parent)) {
+		y += sign(vy);
+	}
+	else {
+		vy = 0;
+		break;
+	}
+}
+
+// Handle attempting to interact with objects
+if (hand_collider != noone) {
+	instance_destroy(hand_collider);
+	hand_collider = noone;
+}
+
+if (keyboard_check_pressed(vk_space)) {
+	var colliderX;
+	var colliderY;
+	
+	switch(facing) {
+		case "right": colliderX = x + 8; colliderY = y; break;
+		case "left": colliderX = x - 8; colliderY = y; break;
+		case "down": colliderX = x; colliderY = y + 15; break;
+		case "up": colliderX = x; colliderY = y - 15; break;
+	}
+	
+	hand_collider = instance_create_layer(colliderX, colliderY, "Instances", obj_td_hand_collider);
 }
