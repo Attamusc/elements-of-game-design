@@ -50,7 +50,9 @@ if (message_end > 0) {
 	
 	draw_nine_slice(spr_dialogue_box, 0, 300, 640, 360);
 	
-	draw_sprite(portrait_sprite, 0, 5, 360 - 55);
+	if (portrait_sprite != "") {
+		draw_sprite(portrait_sprite, 0, 5, 360 - 55);
+	}
 	
 	while (i <= string_length(message[message_current]) && i <= cutoff) {
 		var length = 0;

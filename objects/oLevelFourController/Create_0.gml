@@ -10,3 +10,7 @@ messages = [
 	"Oh look! You made it here loser.",
 	"Prepare to get your ass kicked!!"
 ];
+
+if (!audio_is_playing(snd_megalovania)) {
+	audio_play_sound(snd_megalovania, 10, 1);
+}
