@@ -1,14 +1,16 @@
 {
     "id": "72703976-b079-4789-85b5-ab1f7919d1de",
     "modelName": "GMFont",
-    "mvc": "1.0",
+    "mvc": "1.1",
     "name": "fnt_slides_subheader",
     "AntiAlias": 0,
     "TTFName": "",
+    "ascenderOffset": 0,
     "bold": false,
     "charset": 0,
     "first": 0,
     "fontName": "Orange Kid",
+    "glyphOperations": 0,
     "glyphs": [
         {
             "Key": 32,
@@ -1436,8 +1438,9 @@
             }
         }
     ],
-    "image": null,
+    "hinting": 0,
     "includeTTF": false,
+    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         {
@@ -3018,13 +3021,16 @@
         }
     ],
     "last": 0,
+    "maintainGms1Font": false,
+    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,
             "y": 127
         }
     ],
+    "sampleText": null,
     "size": 20,
     "styleName": "Regular",
-    "textureGroup": 0
+    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f"
 }

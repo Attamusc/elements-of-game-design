@@ -10,3 +10,4 @@ if (keyboard_check_pressed(ord("U"))) {
 }
 
 auto_toggle_mouse();
+
