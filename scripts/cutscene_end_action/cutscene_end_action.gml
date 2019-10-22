@@ -4,6 +4,7 @@ var scene_length = array_length_1d(scene_info);
 
 scene++;
 if (scene > scene_length - 1) {
+	global.scene_playing = false;
 	instance_destroy();
 	exit;
 }

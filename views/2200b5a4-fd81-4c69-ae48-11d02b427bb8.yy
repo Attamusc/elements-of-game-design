@@ -8,13 +8,11 @@
         "fa1e31fd-c985-4cba-a0e3-b1c4451fcb9d",
         "9cddce5d-a58e-4f44-a8a9-08af0e022665",
         "04205a50-44cb-45d4-9d66-8d8065bd485e",
-        "93d1786b-8d3a-45e6-ad0a-e3ec0824a952",
-        "3d419a81-673f-49d8-921d-86f21ad3e54a",
         "68228fd8-246a-4ebe-8ded-ac075cbd68cd",
-        "4457e474-3c19-4ec0-bcc1-f1840e1d7894",
         "6f5f9769-99e9-40d8-8002-42a9aa129788",
         "d19714af-4b29-45f7-b1db-2957a9081913",
-        "5a57f86b-e920-414e-89d6-d16a05113033"
+        "5a57f86b-e920-414e-89d6-d16a05113033",
+        "cb0fd562-ef35-4942-8885-a1f332e584f7"
     ],
     "filterType": "GMSprite",
     "folderName": "Level Zero",
